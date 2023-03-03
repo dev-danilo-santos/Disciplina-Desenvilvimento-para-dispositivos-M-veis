@@ -1,1 +1,5 @@
 #ignorando pastas
+react-native-web-lessons/
+.expo/
+node_modules/
+*.expo
