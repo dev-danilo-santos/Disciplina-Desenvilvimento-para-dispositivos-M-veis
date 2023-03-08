@@ -1,10 +1,10 @@
 import { StatusBar } from 'react-native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import { NavigationContainer } from '@react-navigation/native'
-import LoginScreen from './src/screens/LoginScreen'
-import HomeScreen from './src/screens/HomeScreen'
-import UserDetailsScreen from './src/screens/UserDetailsScreen'
-import AboutScreen from './src/screens/AboutScreen'
+import LoginScreen from './src/screens/LoginScreen/index'
+import HomeScreen from './src/screens/HomeScreen/index'
+import UserDetailsScreen from './src/screens/UserDetailScreen/index'
+import AboutScreen from './src/screens/AboutScreen/index'
 
 
 const Stack = createNativeStackNavigator()
