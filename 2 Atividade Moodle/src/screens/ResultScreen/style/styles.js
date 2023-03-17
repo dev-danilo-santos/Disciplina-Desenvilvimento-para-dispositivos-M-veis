@@ -13,27 +13,39 @@ const styles = StyleSheet.create({
         backgroundColor: 'lightgray',
         borderRadius: 5
     },
-    input:{
-        borderWidth: 1,
-        borderColor: 'gray',
-        borderRadius: 5,
-        padding: 10,
-        marginbotton: 10,
-        width: '80%',
-        margin: 5,
-        backgroundColor: 'white'
-    },
     buttons: {
         borderRadius: 5,
         textAlign: 'center',
         fontSize: 18,
         fontWeight: 'bold',
         width: 200,
-        marginTop: 30,
+        marginTop: 5,
     },
     textStart: {
         fontSize: 25,
         fontStyle: "bold"
+    },
+    boxNumber: {
+        width: 100,
+        height: 100,
+        backgroundColor: "rgb(32, 137, 220)",
+        borderRadius: 5,
+        marginTop: 20,
+        textAlign: 'center',
+        justifyContent: 'center',
+        flexDirection: 'column',
+        marginHorizontal: 5
+    },
+    textNumber: {
+        fontSize: 25,
+        color: "white"
+    },
+    boxSum: {
+        display: "flex",
+        flexDirection: 'row'
+    },
+    textNormal : {
+        marginTop: 10
     }
 });
 

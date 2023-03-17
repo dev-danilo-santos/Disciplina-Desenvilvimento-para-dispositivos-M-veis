@@ -34,6 +34,9 @@ const styles = StyleSheet.create({
     textStart: {
         fontSize: 25,
         fontStyle: "bold"
+    },
+    textErro: {
+        color: 'red'
     }
 });
 

@@ -34,6 +34,38 @@ const styles = StyleSheet.create({
     textStart: {
         fontSize: 25,
         fontStyle: "bold"
+    },
+    textErro: {
+        color: 'red'
+    },
+    boxNumber: {
+        width: 100,
+        height: 100,
+        backgroundColor: "rgb(32, 137, 220)",
+        borderRadius: 5,
+        marginTop: 20,
+        textAlign: 'center',
+        justifyContent: 'center',
+        flexDirection: 'column',
+        marginHorizontal: 5
+    },
+    textNumber: {
+        fontSize: 25,
+        color: "white"
+    },
+    boxSum: {
+        display: "flex",
+        flexDirection: 'row'
+    },
+    buttonMath: {
+        borderRadius: 5,
+        textAlign: 'center',
+        fontSize: 25,
+        fontWeight: 'bold',
+        width: 80,
+        height: 80,
+        marginTop: 50,
+        marginHorizontal: 20
     }
 });
 
